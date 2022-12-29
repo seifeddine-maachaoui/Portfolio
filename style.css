@@ -33,7 +33,7 @@ body{
 header{
     width: 100%;
     height: 10vh;
-    background-color: #160438;
+    background-color: #1c033d;
     display: flex;
     align-items: center;
 }
@@ -65,3 +65,95 @@ header nav ul a li{
 list-style: none;
 }
 
+/* MAIN */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* HOME */
+
+#home{
+    width: 100%;
+    height: 100%;
+}
+
+/* Ajout de l'image de fond ainsi que l'utilisation d'un conteneur en display flex, afin d'organiser mes éléments */
+
+.container-home{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: url('/images/home_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+
+}
+
+/* Je lui attribue l'ordre 2 afin qu'il se retrouve positionné au milieu du conteneur */
+
+.name{
+    order: 2;
+    width: 30%;
+  
+}
+
+.name, h1, h2{
+    font-family: Inter;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px;
+    text-align: center;
+    margin: 3.5%;
+}
+
+.story{
+    order: 1;
+    margin: 10% auto;
+    width: 25%;
+}
+
+.story h3{
+    color: white;
+    text-align: center;
+    font-family: Sacramento;
+    font-size: 40px;
+    text-shadow: 0 0 15px;
+}
+
+.story p{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px;
+    font-family: Inter;
+    font-size: 25px;
+    margin: 5%;
+}
+
+.ambitions{
+    order: 3;
+    margin: 10% auto;
+    width: 25%;
+}
+
+.ambitions h3{
+    color: white;
+    text-align: center;
+    font-family: Sacramento;
+    font-size: 40px;
+    text-shadow: 0 0 15px;
+}
+
+.ambitions p{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px;
+    font-family: Inter;
+    font-size: 25px;
+    margin: 5%;
+}
