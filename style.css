@@ -87,7 +87,7 @@ main{
     height: 90vh;
     display: flex;
     justify-content: space-around;
-    background-image: url('/images/home_background.jpg');
+    background-image: url('./images/home_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
