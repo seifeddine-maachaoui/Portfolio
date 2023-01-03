@@ -29,11 +29,11 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background: rgb(3,15,31);
-    background: -moz-linear-gradient(180deg, rgba(3,15,31,1) 50%, rgba(15,9,47,1) 71%, rgba(30,13,65,1) 95%);
-    background: -webkit-linear-gradient(180deg, rgba(3,15,31,1) 50%, rgba(15,9,47,1) 71%, rgba(30,13,65,1) 95%);
-    background: linear-gradient(180deg, rgba(3,15,31,1) 50%, rgba(15,9,47,1) 71%, rgba(30,13,65,1) 95%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030f1f",endColorstr="#1e0d41",GradientType=1); 
+    background: rgb(3,14,32);
+    background: -moz-linear-gradient(180deg, rgba(3,14,32,1) 20%, rgba(31,10,69,1) 40%, rgba(33,14,69,1) 57%, rgba(44,23,82,1) 70%, rgba(88,62,134,1) 85%);
+    background: -webkit-linear-gradient(180deg, rgba(3,14,32,1) 20%, rgba(31,10,69,1) 40%, rgba(33,14,69,1) 57%, rgba(44,23,82,1) 70%, rgba(88,62,134,1) 85%);
+    background: linear-gradient(180deg, rgba(3,14,32,1) 20%, rgba(31,10,69,1) 40%, rgba(33,14,69,1) 57%, rgba(44,23,82,1) 70%, rgba(88,62,134,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030e20",endColorstr="#583e86",GradientType=1); 
     
 }
 
@@ -171,7 +171,7 @@ main{
 
 #cv{
   width:100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 .container-cv{
@@ -184,7 +184,8 @@ main{
 
 #projects{
     width: 60%;
-    margin: 10% auto;
+    height: 80vh;
+    margin: 15% auto;
     
 }
 
@@ -205,7 +206,7 @@ main{
 .box1, .box2, .box3{
     width: 250px;
     height: 250px;
-    margin: 5% auto;
+    margin: 10% auto;
     background-color: white;
     border-radius: 5px;
     box-shadow:  0 0 20px rgb(141, 31, 141);
@@ -229,7 +230,8 @@ main{
 
 #skills{
     width: 60%;
-    margin: 10% auto;
+    height: 30vh;
+    margin: 20% auto;
 }
 
 #skills h4{
@@ -238,13 +240,12 @@ main{
     color: white;
     text-shadow: 0 0 15px;
     text-align: center;
-    margin: 1%;
 }
 
 .container-skills{
     display: flex;
     justify-content: space-around;
-    margin: 5% auto;
+    margin: 10% auto;
 }
 
 .container-skills img{
@@ -256,10 +257,11 @@ main{
 
 #about_me{
     width: 60%;
-    margin: 5% auto;
+    height: 50vh;
+    margin: 15% auto;
 }
 
-#about_me h4{
+#about_me h5{
     font-family: Sacramento;
     font-size: 45px;
     color: white;
@@ -275,7 +277,7 @@ main{
     border-radius: 50%;
     box-shadow: 0 0 5px white;
     border: 1px solid;
-    margin: 5% auto;
+    margin: 8% auto;
 }
 
 #about_me p{
@@ -284,5 +286,40 @@ main{
     text-shadow: 0 0 10px;
     font-family: Inter;
     font-size: 25px;
-    margin: 2%
+    margin: 1%
+}
+
+/* CONTACT */
+
+#contact{
+    width: 70%;
+    height: 40vh;
+    margin: 10% auto;
+}
+
+#contact h5{
+    font-family: Sacramento;
+    font-size: 45px;
+    color: white;
+    text-shadow: 0 0 15px;
+    text-align: center;
+    margin: 10%;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone img{
+    display: block;
+    margin: 0 auto;
+}
+
+.phone p{
+    font-size: 20px;
+    font-family: Inter;
+    color: white;
+    text-shadow: 0 0 5px;
+    margin-top: 15%;
 }
