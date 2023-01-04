@@ -415,3 +415,34 @@ footer{
 .container span{
     color: white;
 }
+
+/* LA PARTIE RESPONSIVE DU PORTFOLIO */
+
+/* Je vais donc utiliser les media queries */
+
+
+
+/* HEADER */
+
+/* max-width, signifie si l'écran est inférieur ou égal à... */
+@media (max-width: 950px){
+
+        header{
+            width: 100%;
+            height: 30vh;
+        }
+
+        header nav ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header nav ul a {
+            font-size: 15px;
+        }
+        
+        header nav ul a li {
+            margin: 20% auto;
+        }
+}
