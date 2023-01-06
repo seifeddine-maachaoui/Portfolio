@@ -179,6 +179,10 @@ main{
     margin: 10% auto;
 }
 
+.mini-cv{
+    display: none;
+}
+
 /* PROJECTS */
 
 #projects{
@@ -454,7 +458,7 @@ footer{
 
         #home{
             width: 100%;
-            height: 50vh;
+            height: 90vh;
         }
 
         .container-home{
@@ -511,5 +515,42 @@ footer{
             font-size: 13px;
             width: 100%;
             margin: 2% ;
+        }
+}
+
+/* RESPONSIVE CV */
+
+@media (max-width: 950px){
+        #cv{
+        height: 45vh;
+        }
+
+        .container-cv{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container-cv iframe{
+            display: none;
+        }
+
+        .mini-cv{
+            display: block;
+            width: 100%;
+            height: 40%;
+        }
+
+        .mini-cv h3{
+            color: white;
+            text-align: center;
+            font-family: Sacramento;
+            font-size: 30px;
+            margin: 5% auto;
+        }
+
+        .mini-cv img{
+            display: block;
+            margin: 5% auto;
         }
 }
