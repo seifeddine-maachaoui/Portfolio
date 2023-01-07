@@ -598,28 +598,99 @@ footer{
 
 @media (max-width: 950px){
 
-    #skills{
-        width: 100%;
-        height: 80vh;
-    }
+        #skills{
+            width: 100%;
+            height: 80vh;
+        }
 
-    #skills h4{
-        font-size: 30px;
+        #skills h4{
+            font-size: 30px;
+            margin: 5% auto;
+        }
+        
+        .container-skills{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 3% auto;
+        }
+        
+        .container-skills img{
+            width: 80px;
+            height: 80px;
+            margin: 5%;
+            
+        }
+    
+}
+
+    /* RESPONSIVE ABOUT ME */
+
+@media (max-width: 950px){
+    #about_me{
+        width: 100%;
+        height: 60vh;
         margin: 5% auto;
     }
     
-    .container-skills{
+    #about_me h5{
+        font-size: 30px;
+        margin: 3%;
+    }
+    
+    #about_me img{
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
+    
+    #about_me p{
+        font-size: 15px;
+        margin: 1% auto;
+    }
+}
+
+    /* RESPONSIVE CONTACT */
+
+@media (max-width: 950px){
+        
+    #contact{
+        width: 100%;
+        height: 60vh;
+        margin: 10% auto;
+    }
+
+    #contact h5{
+        font-size: 30px;
+        margin: 5%;
+    }
+
+    .container-contact{
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 3% auto;
     }
-    
-    .container-skills img{
+
+    .container-contact img{
         width: 80px;
         height: 80px;
-        margin: 5%;
-        
+        margin: 0 auto;
     }
-    
+
+    .phone img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .phone p{
+        font-size: 18px;
+        font-family: Inter;
+        color: white;
+        text-shadow: 0 0 5px;
+        margin: 5% auto;
+    }
 }
+
+
