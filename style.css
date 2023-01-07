@@ -693,4 +693,98 @@ footer{
     }
 }
 
+/* RESPONSIVE FOOTER */
+
+@media (max-width: 950px){
+    footer{
+        height: 100vh;
+    }
+    
+    
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+
+
+    .container-footer nav{
+        margin: 3% auto;
+    }
+
+    .container-footer ul{
+        list-style: none;
+    }
+
+    .container-footer ul a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Inter;
+        color: white;
+    }
+
+    .container-footer ul a:hover{
+        color: rgba(248, 180, 7, 0.931);
+    }
+
+    .container-footer ul a li{
+        display: block;
+        text-align: center;
+        margin: 10% auto;
+    }
+
+    .footer-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-icons p{
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        font-family: Inter;
+    }
+
+    .copyright {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-family: Inter;
+        margin: 7% auto;
+
+    }
+
+    .container-credits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .container-credits ul{
+        list-style: none;
+        margin: 1%;
+    }
+
+    .container-credits ul li{
+        margin: 1% auto;
+        text-align: center;
+    }
+
+    .container-credits ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        font-family: Inter;
+        color: white;
+    }
+
+    .container-credits ul li a:hover{
+        color: rgba(248, 180, 7, 0.931);
+    }
+
+        
+}
+
 
