@@ -791,7 +791,7 @@ footer{
 
 /* RESPONSIVE HOME FOR LAPTOP AND TABLET */
 
-@media screen and (min-width: 951px) and (max-width: 1600px){
+@media screen and (min-width: 951px) and (max-width: 1980px){
 
     .name{
         order: 2;
@@ -977,8 +977,6 @@ footer{
             display: inline-block;
             margin: 1% 3%;
         }
-
-        
-    
+   
 }
 
