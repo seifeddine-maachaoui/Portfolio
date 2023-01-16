@@ -787,4 +787,198 @@ footer{
         
 }
 
+/* RESPONSIVE DESIGN POUR ORDINATEUR PORTABLE ET TABLETTE */
+
+/* RESPONSIVE HOME FOR LAPTOP AND TABLET */
+
+@media screen and (min-width: 951px) and (max-width: 1600px){
+
+    .name{
+        order: 2;
+        width: 40%;
+      
+    }
+    
+    .name, h1, h2{   
+        font-size: 25px;
+        margin: 2%;
+    }
+    
+    .story{  
+        margin: 2% auto;
+    }
+    
+    .story h3{
+        font-size: 30px;      
+    }
+    
+    .story p{
+        font-size: 15px;
+        margin: 5%;
+    }
+    
+    .ambitions{
+        margin: 2% auto;
+    }
+    
+    .ambitions h3{
+        font-size: 30px;
+    }
+    
+    .ambitions p{
+        font-size: 15px;
+        margin: 5%;
+    }
+
+    /* RESPONSIVE CV FOR LAPTOP AND TABLET */
+
+    #cv{
+        width:100%;
+        height: 95vh;
+        margin: 0 auto;
+      }
+      
+      .container-cv{
+          display: flex;
+          justify-content:center;
+          margin: 5% auto;
+      }
+
+    /* RESPONSIVE PROJECTS FOR LAPTOP AND TABLET */
+
+        #projects{
+            width: 70%;
+            height: 60vh;
+            margin: 10% auto;
+            
+        }
+        
+        #projects h4{
+            font-size: 35px;
+            margin: 1%;
+        }
+        
+        .container-box1{
+            display: flex;
+            justify-content:space-around;
+        }
+        
+        .box1, .box2, .box3{
+            width: 150px;
+            height: 150px;
+            margin: 10% auto;
+        }
+        
+        .container-box2{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .box4, .box5, .box6{
+            width: 150px;
+            height: 150px;
+        }
+
+    /* RESPONSIVE SKILLS FOR LAPTOP AND TABLET */
+        
+        #skills{
+            width: 100%;
+            height: 30vh;
+            margin: 10% auto;
+        }
+        
+        #skills h4{
+            font-size: 35px;
+        }
+        
+        .container-skills{
+            display: flex;
+            justify-content: space-around;
+            margin: 5% auto;
+        }
+
+        .container-skills img{
+            width: 120px;
+            height: 120px;
+        }
+        
+    /* RESPONSIVE ABOUT_ME FOR LAPTOP AND TABLET */    
+
+        #about_me{
+            width: 60%;
+            height: 45vh;
+            margin: 10% auto;
+        }
+        
+        #about_me h5{
+            font-size: 35px;
+            margin: 1%;
+        }
+        
+        #about_me img{
+            width: 200px;
+            height: 200px;
+            margin: 8% auto;
+        }
+        
+        #about_me p{
+            font-size: 17px;
+            margin: 1%
+        }
+    
+    /* RESPONSIVE CONTACT FOR LAPTOP AND TABLET */
+        #contact{
+            width: 100%;
+            height: 40vh;
+            margin: 10% auto;
+        }
+        
+        #contact h5{
+            font-size: 35px;
+            margin: 10%;
+        }
+        
+        .container-contact{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container-contact img{
+            width: 80px;
+            height: 80px;
+        }
+        
+        .phone{
+            width: 80px;
+            height: 80px;
+        }
+        
+        .phone img{
+            margin: 0 auto;
+        }
+        
+        .phone p{
+            font-size: 17px;
+            margin-top: 10%;
+        }
+    
+    /* RESPONSIVE FOOTER FOR LAPTOP AND TABLET */
+
+        .container-footer nav{
+            width: 50%;
+            margin: 1% 1%;
+        }
+        
+        .container-footer ul a{
+            font-size: 15px;
+        }
+
+        .container-footer ul a li{
+            display: inline-block;
+            margin: 1% 3%;
+        }
+
+        
+    
+}
 
