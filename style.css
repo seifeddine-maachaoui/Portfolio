@@ -93,7 +93,7 @@ main{
 
 .container-home{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     background-image: url('./images/home_background.jpg');
@@ -171,12 +171,12 @@ main{
 #cv{
   width:100%;
   height: 90vh;
+  margin: 15% auto;
 }
 
 .container-cv{
     display: flex;
     justify-content:center;
-    margin: 10% auto;
 }
 
 .mini-cv{
@@ -186,9 +186,9 @@ main{
 /* PROJECTS */
 
 #projects{
-    width: 60%;
-    height: 80vh;
-    margin: 15% auto;
+    width: 70%;
+    height: 70vh;
+    margin: 10% auto;
     
 }
 
@@ -234,7 +234,7 @@ main{
 #skills{
     width: 60%;
     height: 30vh;
-    margin: 20% auto;
+    margin: 15% auto;
 }
 
 #skills h4{
@@ -297,7 +297,7 @@ main{
 #contact{
     width: 70%;
     height: 40vh;
-    margin: 10% auto;
+    margin: 15% auto;
 }
 
 #contact h5{
@@ -792,6 +792,7 @@ footer{
 /* RESPONSIVE HOME FOR LAPTOP AND TABLET */
 
 @media screen and (min-width: 951px) and (max-width: 1750px){
+    
 
     .name{
         order: 2;
@@ -805,11 +806,11 @@ footer{
     }
     
     .story{  
-        margin: 2% auto;
+        margin: 10% auto;
     }
     
     .story h3{
-        font-size: 30px;      
+        font-size: 35px;      
     }
     
     .story p{
@@ -818,11 +819,11 @@ footer{
     }
     
     .ambitions{
-        margin: 2% auto;
+        margin: 10% auto;
     }
     
     .ambitions h3{
-        font-size: 30px;
+        font-size: 35px;
     }
     
     .ambitions p{
@@ -834,28 +835,27 @@ footer{
 
     #cv{
         width:100%;
-        height: 95vh;
-        margin: 0 auto;
+        height: 90vh;
+        margin: 8% auto;
       }
       
       .container-cv{
           display: flex;
           justify-content:center;
-          margin: 5% auto;
       }
 
     /* RESPONSIVE PROJECTS FOR LAPTOP AND TABLET */
 
         #projects{
             width: 70%;
-            height: 60vh;
-            margin: 10% auto;
+            height: 70vh;
+            margin: 15% auto;
             
         }
         
         #projects h4{
             font-size: 35px;
-            margin: 1%;
+            margin: 0;
         }
         
         .container-box1{
@@ -864,9 +864,9 @@ footer{
         }
         
         .box1, .box2, .box3{
-            width: 150px;
-            height: 150px;
-            margin: 10% auto;
+            width: 120px;
+            height: 120px;
+            margin: 5% auto;
         }
         
         .container-box2{
@@ -875,16 +875,16 @@ footer{
         }
         
         .box4, .box5, .box6{
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
         }
 
     /* RESPONSIVE SKILLS FOR LAPTOP AND TABLET */
         
         #skills{
-            width: 100%;
-            height: 30vh;
-            margin: 10% auto;
+            width: 70%;
+            height: 40vh;
+            margin: 15% auto;
         }
         
         #skills h4{
@@ -905,9 +905,9 @@ footer{
     /* RESPONSIVE ABOUT_ME FOR LAPTOP AND TABLET */    
 
         #about_me{
-            width: 60%;
-            height: 45vh;
-            margin: 10% auto;
+            width: 70%;
+            height: 50vh;
+            margin: 15% auto;
         }
         
         #about_me h5{
@@ -916,26 +916,26 @@ footer{
         }
         
         #about_me img{
-            width: 200px;
-            height: 200px;
-            margin: 8% auto;
+            width: 150px;
+            height: 150px;
+            margin: 5% auto;
         }
         
         #about_me p{
-            font-size: 17px;
+            font-size: 15px;
             margin: 1%
         }
     
     /* RESPONSIVE CONTACT FOR LAPTOP AND TABLET */
         #contact{
-            width: 100%;
+            width: 70%;
             height: 40vh;
-            margin: 10% auto;
+            margin: 5% auto;
         }
         
         #contact h5{
             font-size: 35px;
-            margin: 10%;
+            margin: 5%;
         }
         
         .container-contact{
@@ -949,8 +949,8 @@ footer{
         }
         
         .phone{
-            width: 80px;
-            height: 80px;
+            width: 70px;
+            height: 70px;
         }
         
         .phone img{
@@ -964,8 +964,13 @@ footer{
     
     /* RESPONSIVE FOOTER FOR LAPTOP AND TABLET */
 
+        footer{
+            width: 100%;
+            height: 40vh;
+            
+        }
         .container-footer nav{
-            width: 50%;
+            width: 40%;
             margin: 1% 1%;
         }
         
@@ -976,6 +981,14 @@ footer{
         .container-footer ul a li{
             display: inline-block;
             margin: 1% 3%;
+        }
+
+        .copyright{
+            font-size: 15px;
+        }
+
+        .footer-icons p{
+            font-size: 15px;
         }
    
 }
