@@ -1,197 +1,177 @@
 <!DOCTYPE html>
+<html lang="en">
 
-    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Portfolio</title>
+    </head>
 
-            <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="style.css">
-                <title>Mon Portfolio</title>
-            </head>
+    <body>
+        <!-- Mise en place de l'en-tête de la page -->
+        <header>
 
-        <body>
+            <nav id="navbar">
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
-            <!-- Mise en place de l'en-tête de la page -->
+        </header>
 
-            <header>
+        <main>
+
+            <section id="home">
+                <article>
+                    <div class="name">
+                        <h1>Seifeddine Maachaoui</h1>
+                        <h2>Développeur web, en recherche d'alternance</h2>
+                    </div>
+                </article>
+            </section>
+
+            <section id="about_me">
+                <article>
+                    
+                    <h4>About me</h4>
+
+                    <img src="./images/photo_profil.jpg" alt="Une photo de profil">
+                    <p>Après 1 an passé en tant que formateur AWS à transmettre mon savoir à des élèves. Je décide de me former dans le développement web avec pour objectif de devenir un développeur full-stack.</p>
+                    <p>Je souhaite être capable de concevoir des sites web et des applications modernes qui soient fonctionnelles et qui répondent à des besoins spécifiques.</p>
+
+
+                </article>
+            </section>
+    
+            <section id="cv">
+                <article>
+
+                    <h3>Mon CV</h3>
+                    <iframe src="./documents/CV_Seifeddine_Maachaoui.pdf" width="800" height="800" frameborder="0" scrolling="no"></iframe>
+
+                    <div class="mini-cv">
+                        <a href="./documents/CV_Seifeddine_Maachaoui.pdf" download="CV_Développeur_Web.pdf"><img src="./logo/pdf.png" alt="Un logo pdf"></a>
+                    </div>
+
+                </article>
+            </section>
+    
+            <section id="projects">
+                <h3>Mes Projets</h3>
+                <article>
+                    <div>
+                        <a href="https://seifeddine-maachaoui.students-laplateforme.io/site-la-plateforme/accueil.html"><img src="./images/aperçu_site_plateforme.png" alt="Un aperçu du site de La Plateforme"></a>
+                        <p>Une reproduction de la page d'accueil du site de La Plateforme.</p>     
+                    </div>
+
+                    <div>
+                        <a href="https://seifeddine-maachaoui.students-laplateforme.io/mycms/"><img src="./images/aperçu_site_wordpress.png" alt="Un aperçu du site réalisé sur Wordpress"></a>
+                        <p>Un site e-commerce réalisé sur wordpress.</p>
+                    </div>
+
+                    <div>
+                        <a href="https://seifeddine-maachaoui.students-laplateforme.io/module-connexion/index.php"><img src="./images/aperçu_module_connexion.png" alt="Un aperçu du module de connexion"></a>
+                        <p>Un module de connexion permettant aux utilisateurs l'inscription, la connexion et la modification de profil.</p>
+                    </div>
+
+                    <div>
+                        <a href="https://seifeddine-maachaoui.students-laplateforme.io/livre-or/"><img src="./images/aperçu_livre_or.png" alt="Un aperçu du livre d'or"></a>
+                        <p>Un livre d'or permettant aux utilisateurs de se connecter et de poster un commentaire.</p>
+                    </div>
+                    <div class="empty">
+                        <img src="./logo/work-in-progress.png" alt="Un logo work in progress">
+                    </div>
+                    <div class="empty">
+                        <img src="./logo/work-in-progress.png" alt="Un logo work in progress">
+                    </div>
+                </article>
+    
+            </section>
+    
+            <section id="skills">
+
+                <h4>My Skills</h4>
+
+                <article>
+                    <div><img src="./logo/html-5.png" alt="Un logo html"></div>
+                    <div><img src="./logo/css-3.png" alt="Un logo css"></div>
+                    <div><img src="./logo/js.png" alt="Un logo javascript"></div>
+                    <div><img src="./logo/python.png" alt="Un logo python"></div>
+                    <div><img src="./logo/php.png" alt="Un logo php"></div>
+                    <div><img src="./logo/mysql.png" alt="Un logo mysql"></div>
+                </article>
+
+            </section>
+    
+            <section id="contact">
+                <h5>Contact</h5>
+                <article>
+                   
+                    <div>
+                        <img src="./logo/appel-telephonique.png" alt="Une icône d'appel téléphonique">
+                        <p>+33664692855</p>
+                    </div>
+
+                    
+                    <a href="mailto:smaachaoui@outlook.com"><img src="./logo/e-mail.png" alt="Une icône d'email"></a>
+                    <a href="https://www.linkedin.com/in/smaachaoui/"><img src="./logo/linkedin.png" alt="Une icône LinkedIn"></a>
+                    <a href="https://github.com/seif-maachaoui"><img src="./logo/github.png" alt="Une icône Github"></a>          
+                </article>
+            </section>
+
+        </main>
+    
+        <footer>
+            <h6>Copyright © 2023-2024, Seifeddine Maachaoui. All Rights Reserved.</h6>
+
+            
                 <nav>
                     <ul>
-                        <a href="#home"><li>Home</li></a>
-                        <a href="#cv"><li>CV</li></a>
-                        <a href="#projects"><li>Projects</li></a>
-                        <a href="#skills"><li>Skills</li></a>
-                        <a href="#about_me"><li>About me</li></a>
-                        <a href="#contact"><li>contact</li></a>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about_me">About me</a></li>
+                        <li><a href="#cv">CV</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-            </header>
-
-            <!-- Le contenu de la page avec ses sections -->
-
-            <main>
-
-                <section id="home">
-
-                    <!-- Un conteneur pour pouvoir organiser mes éléments -->
-
-                    <div class="container-home">
-
-                        <!-- Mes informations personnelles-->
-
-                        <div class="name">
-                            <h1>Seifeddine Maachaoui</h1>
-                            <h2>AWS trainer & Web Developer</h2>
-                        </div>
-
-                        <!-- Mon parcours -->
-
-                        <div class="story">
-                            <h3>My story</h3>
-                            <p>J'ai d'abord été élève à l'école la Plateforme, dans laquelle j'ai suivi la formation AWS Re/Start.</p>
-                            <p>Au cours de mon apprentissage, j'ai pu découvrir le concept du cloud computing et les services AWS.</p>
-                            <p>Après avoir terminé cette formation, j'ai été embauché par l'école pour le poste de formateur cloud AWS.</p>
-                        </div>
-
-                        <!-- Mon objectif -->
-
-                        <div class="ambitions">
-                            <h3>My ambitions</h3>
-                            <p>J'ai formé plusieurs sessions d'élèves dans le but de les préparer à passer la certification AWS Cloud Practitioner.</p>
-                            <p>Aujourd'hui, je cherche à devenir développeur full-stack, afin de tirer parti des services proposés par Amazon.</p>
-                            <p>C'est pourquoi, je me forme dans l'optique de monter en compétences.</p>
-
-                        </div>
-                    </div> 
-                </section>
-
-                <!-- Un aperçu de mon CV avec la possibilité de le télécharger grâce à une balise iframe-->
-
-                <section id="cv">
-                    <div class="container-cv">
-                        <!-- J'utilise #zoom=60 pour pouvoir forcer le zoom de l'aperçu PDF à sa taille réelle -->
-                        <iframe src="./documents/CV_Développeur_Web.pdf#zoom=50" width="950" height="650" frameborder="0" scrolling="no"></iframe>
-
-                        <div class="mini-cv">
-                            <h3>Download my cv</h3>
-                            <a href="./documents/CV_Développeur_Web.pdf" download="CV_Développeur_Web.pdf"><img src="./logo/pdf.png" alt="Un logo pdf" width="100px" height="100px"></a>
-                            </div> 
-                    </div>
-                </section>
-
-                <section id="projects">
-                        <h4>My Projects</h4>
-                    <div class="container-box1">
-                        <div class="box1"></div>
-                        <div class="box1"></div>
-                        <div class="box1"></div>
-                    </div>
-
-                    <div class="container-box2">
-                        <div class="box1"></div>
-                        <div class="box1"></div>
-                        <div class="box1"></div>
-                    </div>
-                </section>
-
-                <!-- Une section skills, pour mettre en avant mes compétences -->
-                <section id="skills">
-                    <h4>My Skills</h4>
-                    <div class="container-skills">
-                        <img src="./logo/html-5.png" alt="Un logo html 5" width="150px" height="150px">
-                        <img src="./logo/css-3.png" alt="Un logo CSS 3" width="150px" height="150px">
-                        <img src="./logo/js.png" alt="Un logo JavaScript" width="150px" height="150px">      
-                    </div>
-                </section>
             
 
-                <!-- Les articles de la page -->
+            
+            <article>
+                <div>
+                    <ul>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/logo" title="logo icônes"> - Logo HTML icônes créées par Freepik - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/css" title="css icônes">- Css icônes créées par Pixel perfect - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/javascript" title="javascript icônes">- Javascript icônes créées par Freepik - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/python" title="python icônes">- Python icônes créées par Freepik - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/php" title="php icônes">- Php icônes créées par Freepik - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/mysql" title="mysql icônes">- Mysql icônes créées par Pixel perfect - Flaticon</a></li>
+                    </ul> 
+                </div>
 
-                <article id="about_me">
-                    <!-- Quelques infos sur moi -->
-                    <h5>About me</h5>
-                    <img src="./images/photo_profil.jfif" alt="Une photo de moi">
-                    <p>Ce qui me plaît dans l'informatique, c'est le fait de pouvoir concevoir des sites web et des applications de toutes sortes.</p>
-                    <p>C'est pourquoi, je me forme en autodidacte dans le but de monter en compétence et d'être développeur Full-Stack.</p>
-                    <p>Curieux de nature et ouvert d'esprit, je cherche à faire du développement web, mon métier.</p>
+                <div>
+                    <ul>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/pdf" title="pdf icônes">Pdf icônes créées par Roman Káčerek - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/appel" title="appel icônes">- Appel icônes créées par Freepik - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/email" title="email icônes">- Email icônes créées par Smashicons - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">- Linkedin icônes créées par riajulislam - Flaticon</a></li>
+                        <li><a href="https://www.flaticon.com/fr/icones-gratuites/github" title="github icônes">- Github icônes créées par Pixel perfect - Flaticon</a></li>
 
-                </article>
+                    </ul>
+                </div>
+            </article>
+        </footer>
 
-                <article id="contact">
-                    <!-- Les différentes façons de me contacter -->
-                    <h5>Contact me</h5>
-                    <div class="container-contact">
+    </body>
 
-                        <div class="phone">
-                            <img src="./logo/icons8-phone-call-100.png" alt="Une icône d'appel entrant" width="100px" height="100px">
-                            <p>+33664692855</p>
-                        </div>
-
-                        <a href="mailto:smaachaoui@outlook.com"><img src="./logo/icons8-rédiger-un-courrier-100.png" alt="une icône d'enveloppe" width="100px" height="100px"></a>
-                        <a href="https://www.linkedin.com/in/smaachaoui/"><img src="./logo/icons8-linkedin-100.png" alt="Une icône Linkedin" width="100px" height="100px"></a>
-                    </div>
-                </article>
-
-            </main>
-            <!-- Le pied de la page  -->
-            <footer>
-
-
-                <div class="container-footer">
-
-                        <!-- Une petite barrre de navigation pour naviguer sur la page -->
-                        <nav>
-                            <ul>
-                                <a href="#home"><li>Home</li></a>
-                                <a href="#cv"><li>CV</li></a>
-                                <a href="#projects"><li>Projects</li></a>
-                                <a href="#skills"><li>Skills</li></a>
-                                <a href="#about_me"><li>About me</li></a>
-                                <a href="#contact"><li>Contact</li></a>
-                            </ul>
-                        </nav>
-                        <!-- Quelques icônes pour plus d'informations sur le portfolio -->
-                        <div class="footer-icons">
-
-                            <div class="phone">
-                                <img src="./logo/icons8-google-maps-50.png" alt="Un logo goofle maps" width="50px" height="50px">
-                                <p>13003, Marseille</p>
-                            </div>
-
-                            <!-- Un lien vers mon profil Github -->
-                            <div class="github">
-                                <a href="https://github.com/seifeddine-maachaoui"><img src="./logo/icons8-github-50.png" alt="Un logo github" width="50px" height="50px"></a>
-                            </div>
-                        </div>
-                </div>    
-
-                    <!-- Les mentions légales du portfolio -->
-                    <h6 class="copyright">Copyright © 2023, Seifeddine Maachaoui. All Rights Reserved.</h6>
-                    
-
-
-                    <!-- Je crédite les auteurs des logos utilisés sur le portfolio -->
-                    <div class="container-credits">
-                        <ul>
-                            <li><a href="https://www.flaticon.com/fr/icones-gratuites/logo" title="logo icônes">Logo HTML icônes créées par Freepik - Flaticon</a></li>
-                            <li><a href="https://www.flaticon.com/fr/icones-gratuites/css" title="css icônes">Css icônes créées par Pixel perfect - Flaticon</a></li>
-                            <li><a href="https://www.flaticon.com/fr/icones-gratuites/javascript" title="javascript icônes">Javascript icônes créées par Freepik - Flaticon</a></li>
-                        </ul> 
-                        
-                        <ul>
-                            <li><a target="_blank" href="https://icons8.com/icon/HMRWiixUl2rM/phone-call">Logo - Phone Call - icons8</a></li>
-                            <li><a target="_blank" href="https://icons8.com/icon/25581/r%C3%A9diger-un-courrier">Logo - Rédiger un courrier - icons8</a></li>
-                            <li><a target="_blank" href="https://icons8.com/icon/8808/linkedin">Logo - LinkedIn - icons8</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a target="_blank" href="https://icons8.com/icon/33453/google-maps">Logo - Google Maps - icons8</a></li>
-                            <li><a target="_blank" href="https://icons8.com/icon/4Z2nCrz5iPY2/github">Logo - GitHub - icons8</a></li>
-                            <li><a href="https://www.flaticon.com/fr/icones-gratuites/pdf" title="pdf icônes">Pdf icônes créées par Roman Káčerek - Flaticon</a></li>
-                        </ul>                                                
-                    </div>   
-            </footer>
-
-        </body>
-
-    </html>
+</html>
